@@ -1,0 +1,52 @@
+codice della giornata
+'''#
+# File: HelloWorld.py
+#
+# Author: il magnifico ME
+#
+# Date: today
+#
+# Version: 1.0
+#
+# Description: My First Project Program to print "Hello, World!".
+#
+
+###### print('Hello, World!')''' 
+import turtle               # Importo modulo turtle
+
+window = turtle.Screen()    # Creo una finestra dove lavorare
+raffaello = turtle.Turtle() # Creo una tartaruga e la assegno alla variabile "raffaello"
+
+raffaello.color('magenta')
+
+'''raffaello.forward(50)       # Dico a "raffaello" di andare avanti di 50 passi
+raffaello.left(90)          # Dico a "raffaello" di girare a sinistra di 90 gradi
+raffaello.forward(50)       # Dico a "raffaello" di andare avanti di 30 passi
+raffaello.left(90)
+raffaello.forward(50)
+raffaello.left(90)
+raffaello.forward(50)
+raffaello.left(90)''' ###buona prassi rimpostare al punto di inizio.
+'''for i in [0, 1, 2, 3] :  qui, dato che in realtà i valori non hanno utilizzo particolare, potremmo scrivere anche ['red','blue',...]
+  raffaello.color(i) ##se metto nelle []i colori, chiramente viene sfrutatto e il quadrato è multicolor
+  raffaello.forward(150)
+  raffaello.left(90)'''
+  
+# inizio loop or con keyword for, inizio il blocco con :
+for i in range(4): ## anche in range(0,4,1) da 0 a 4 di
+    raffaello.forward(50)
+    raffaello.left(90)
+
+
+leonardo=turtle.Turtle()    #### leonardo è un oggetto di tipo tarturaga nel metodo tartaruga allora dot notation
+leonardo.color('blue')
+leonardo.forward(150)
+leonardo.left(120)
+leonardo.forward(150)
+leonardo.left(120)
+leonardo.forward(150)
+leonardo.left(120)
+
+
+
+window.mainloop()           # Attende che l'utente chiuda la finestra di gioco o fermi il programma

@@ -1,0 +1,27 @@
+rfiew
+se scrivo a=b=1000, a e b hanno lo stesso identificatore
+
+chiaramente se faccio a=b=4 e poi b=float(4) l'identificatore di b che prima era uguale a quello di a, è cambiato
+perchè ormai ha un altro"formato"
+
+keyword is, per verificare se due oggetti sono lo stesso non si usa = per verificare, ma IS 
+(per vedere se sono proprio lo stesso oggetto in memoria) 
+
+python funziona a blocchi, bisogna rispettare questi blocchi perchè li segue in modo rigoroso, inoltre
+biosgna stare attenti al numero di spazi, se vado avanti di 3, per tornare al blocco precedente devo tornare di 3.
+inoltre ci sono comandi per andare avanti di blocco.
+se faccio errori con gli spazi è un errore di runtime(mentre il codice gira)
+
+2 tipi di moduli: statement e espressioni 
+
+''' jhfieiohg''' mega commento rosso
+
+ESAME: SPIEGAZIONE DEL PROGRAMMA SCRITTO
+MODULO INSIEME DI ISTRUZIONI GIà SCRITTE. RIVEDERE parte 3/03 che fa vedere un po' come spiegare.
+
+metodi hanno parentesi gli attributi no
+
+il blocco di elif ha inizio se if iniziale è falso.
+
+invece di mettere un blocco if dentro un blocco if conviene mettere condizion1 AND condizione 2
+PER ESAME!!! RICORDARE CHE LA CONDIZIONE 1 è UNA BOOLEAN EXPRESSION.
